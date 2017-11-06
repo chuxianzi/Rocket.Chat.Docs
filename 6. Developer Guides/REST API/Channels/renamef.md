@@ -2,26 +2,26 @@
 order: 65
 ---
 
-# Channel Rename
-Changes the name of the channel.
+# Channel Renamef
+修改频道名称
 
 | URL | Requires Auth | HTTP Method |
 | :--- | :--- | :--- |
-| `/api/v1/channels.rename` | `yes` | `POST` |
+| `/api/v1/channels.renamef` | `yes` | `POST` |
 
 ## Payload
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `roomId` | `ByehQjC44FwMeiLbX` | Required | The channel's id |
-| `name` | `new-name` | Required | The new name the channel will have, it can not be the same as another or the existing name |
+| `fname` | `频道名称` | 必须的 | The new name the channel will have, it can not be the same as another or the existing name |
 
 ## Example Call
 ```bash
 curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
      -H "X-User-Id: aobEdbYhXfu5hkeqG" \
      -H "Content-type: application/json" \
-     http://localhost:3000/api/v1/channels.rename \
-     -d '{ "roomId": "ByehQjC44FwMeiLbX", "name": "new-name" }'
+     http://localhost:3000/api/v1/channels.renamef \
+     -d '{ "roomId": "ByehQjC44FwMeiLbX", "fname": "new-name" }'
 ```
 
 ## Example Result
@@ -29,7 +29,7 @@ curl -H "X-Auth-Token: 9HqLlyZOugoStsXCUfD_0YdwnNnunAJF8V47U3QHXSq" \
 {
   "channel": {
     "_id": "ByehQjC44FwMeiLbX",
-    "name": "new-name",
+    "fname": "new-fname",
     "t": "c",
     "usernames": [
       "testing1"
