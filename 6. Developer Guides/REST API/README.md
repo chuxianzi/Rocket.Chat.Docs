@@ -72,6 +72,8 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.setType` | Sets the type of room the channel should be. | [Link](Channels/setType.md) |
 | `/api/v1/channels.unarchive` | Unarchives a channel. | [Link](Channels/unarchive.md) |
 
+|`/api/v1/channels.create` | 创建新的公共频道（多了fname） | [Link](Channels/create.md) |
+
 ### Groups
 | Url | Short Description | Details Page |
 | :--- | :--- | :--- |
