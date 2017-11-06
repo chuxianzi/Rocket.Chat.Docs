@@ -13,7 +13,7 @@ Creates a new public channel, optionally including specified users. The channel 
 | Argument | Example | Required | Description |
 | :--- | :--- | :--- | :--- |
 | `name` | `channelname` | Required | The name of the new channel |
-| `fname` | `channelfname` | 不是必须的 | 频道名称 |
+| `fname` | `channelfname` | 不是必须的 | 频道名称(新增参数) |
 | `members` | `["rocket.cat"]` | Optional <br> Default: `[]` | The users to add to the channel when it is created. |
 
 ## Example Call
