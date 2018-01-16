@@ -73,7 +73,7 @@ When calling a production Rocket.Chat server, ensure it is running via HTTPS and
 | `/api/v1/channels.unarchive` | Unarchives a channel. | [Link](Channels/unarchive.md) |
 | `新增以及修改的api` | 描述 | 链接详情
 | `/api/v1/channels.create` | 创建新的公共频道(多了fname) | [Link](Channels/create.md) |
-| `/api/v1/channels.renamf` | 修改频道名称(fname) | [Link](Channels/renamef.md) |
+| `/api/v1/channels.renamef` | 修改频道名称(fname) | [Link](Channels/renamef.md) |
 
 ### Groups
 | Url | Short Description | Details Page |
